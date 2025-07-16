@@ -1,0 +1,143 @@
+h1 { color:#5923B0;  /* named colour */ } 
+p {color: #0B51BC;}
+h2 {color:#5923B0;} 
+.fa-solid {width: 1500px; text-align: right; /* align content to far right */ 
+    margin-right: auto; font-size:30px;
+color: #5923B0;}
+.fa-brands {width: 1600px; text-align: right; /* align content to far right */ 
+    margin-right: auto; font-size:30px;
+color: #0B51BC;}
+button {color: #5923B0;}
+input {color: #0B51BC;}
+ .figure-container {
+   display: flex;
+   gap: 20px; /* Space between figures */
+   justify-content: center; /* Align figures horizontally on same height*/
+ }
+ .figure {
+  text-align: center; /* Center the caption under the image */
+  }
+  img { 
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;
+   }
+.reset {background-color: #F08080;}
+.submit {background-color: red;}
+.message {width: 100%;
+  height: 80px; /* Adjust height as needed */
+  resize: vertical; /* Allow resizing vertically */
+  padding: 10px; font-size: 16px;}
+.grid1 { 
+ display: grid; 
+ background-color:white; 
+ grid-template-columns: 40% 40% 20%; 
+ grid-template-rows: 25% 25% 115% 35%;
+ height: 500px;  
+} 
+.grid1 > header, nav, main, footer, aside { 
+ background-color: #a9bddc; 
+ border: solid 4px;  
+} 
+.headersection { 
+ grid-column-start: 1; 
+ grid-column-end: span 3;  
+ text-align: center; color: #5923B0; 
+} 
+.menusection { 
+ grid-column-start: 1; 
+ grid-column-end: span 3; 
+ text-align: left; color: #5923B0;
+} 
+.mainsection {
+ grid-area: 3 / 1 / 3 / 3; 
+ text-align: center; color: #5923B0;
+} 
+.asidesection { 
+ grid-area: 3 / 3 / 3 / 3; 
+ text-align: center; color: #5923B0;
+} 
+.footersection { 
+ grid-column: 1 / span 3; 
+ text-align: center; color: #5923B0;
+}     
+.search-button { background-color: #c1b0db; 
+  text-decoration-color: #5923B0;}
+.search-bar { background-color: #c1b0db; 
+  text-decoration-color: #5923B0;}
+.place-holder { text-emphasis-color: #5923B0;
+}
+.grid2 { 
+ display: grid; 
+ background-color: white; 
+ grid-template-columns: 40% 40% 20%; 
+ grid-template-rows: 26.75% 26.75% 26.75% 26.75% 26.75% 26.75% 26.75% 26.75%;
+ height: 500px; 
+} 
+.grid2 >  div { 
+ background-color: #a9bddc; 
+ border: solid 4px;  
+} 
+.header {
+ grid-column-start: 1; 
+ grid-column-end: span 3; 
+ text-align: center; color: #5923B0;
+}  
+.nav { 
+ grid-column-start: 1; 
+ grid-column-end: span 3; 
+ text-align: center; color: #5923B0; 
+} 
+.home {
+ grid-area: 3 / 1 / 3 / 3; 
+ text-align: center; color: #5923B0;
+} 
+.products {
+ grid-column-start: 1; 
+ grid-column-end: span 3;  
+ text-align: center; color: #5923B0;  
+}
+.register {
+ grid-column-start: 1; 
+ grid-column-end: span 3;  
+ text-align: center; color: #5923B0;  
+}
+.aboutus{
+ grid-column-start: 1; 
+ grid-column-end: span 3;  
+ text-align: center; color: #5923B0;  
+}
+.aside { 
+ grid-area: 3 / 3 / 3 / 3; 
+ text-align: center; color: #5923B0;
+      flex: 1;
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-left: 2px solid #ccc;
+      float: right;
+      margin-right: 20px;
+    }
+.footer { 
+ grid-column: 1 / span 3; 
+ text-align: center; color: #5923B0;
+}     
+.search-button { background-color: #c1b0db; 
+  text-decoration-color: #5923B0;}
+.search-bar { background-color: #c1b0db; 
+  text-decoration-color: #5923B0;}
+.place-holder { text-emphasis-color: #5923B0;
+}
+li {
+  display: inline;
+}
+li {
+  float: left;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: white;
+}
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+  border-right: 1px solid #bbb;
+}
