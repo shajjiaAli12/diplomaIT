@@ -91,6 +91,16 @@ input {color: #0B51BC;}
  grid-column-end: span 3;  
  text-align: center; color: #5923B0;  
 }
+.contactus {
+ grid-column-start: 1; 
+ grid-column-end: span 3;  
+ text-align: center; color: #5923B0; 
+} 
+.servicebooking {
+ grid-column-start: 1; 
+ grid-column-end: span 3;  
+ text-align: center; color: #5923B0;  
+}
 .aboutus{
  grid-column-start: 1; 
  grid-column-end: span 3;  

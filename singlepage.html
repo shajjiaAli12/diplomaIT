@@ -18,19 +18,19 @@
  <a href="#Products">Products</a>
  </li>
  <li> 
- <a href="servicebooking.html" class="ServiceBooking">ServiceBooking</a>
+ <a href="#servicebooking">ServiceBooking</a>
  </li>
  <li>
- <a href="#aboutus">Register</a>
+ <a href="#register">Register</a>
  </li>
  <li>
- <a href="contactus.html" class="ContactUs">ContactUs</a>
+ <a href="#contactus">ContactUs</a>
  </li> 
  <li>
  <a href="#aboutus">AboutUs</a>
  </li>
  <li>
-  <label for="search-bar">Search
+  <label for="search-bar">.
  <input id="search-bar" type="search" class="search-bar" placeholder="Search...">
  </label>
  </li>
@@ -124,7 +124,7 @@
     </figure>
   </div>
  </div>
-<div class="register" ><form name="RegisterForm" method="get" action="Register.html">
+<div id="register" class="register" ><form name="RegisterForm" method="get" action="Register.html">
 <h1>Register Form</h1>
 <p>Please complete the following form to register for an account on our website.</p>
 <table>
@@ -200,13 +200,51 @@
        <td><input type="postcode" name="postcode" id=postcode></td>
     </tr>
     <tr> 
-        <td colspan="2" align="middle"> <label for="clear"> Clear<input type="reset" value="Clear" class="reset"/></label>&nbsp;
-        <label for="register">Register<input type="submit" value="Register" class="submit" /></label></td> 
+        <td colspan="2" align="middle"> <label for="clear">.<input type="reset" value="Clear" class="reset"/></label>&nbsp;
+        <label for="register">.<input type="submit" value="Register" class="submit" /></label></td> 
     </tr>
 </table>
 </form>
 </div>
-
+<div id="servicebooking" class="servicebooking" ><form name="SeviceForm" method="get" action="multipageServiceBooking.html">
+<h1>Service Booking </h1>
+<p>Please complete the following form to book your damaged smartphone in for repair.</p>
+<table>
+    <tr>
+        <td> <label for="firstname">First Name:</label> </td>
+        <td><input id="firstname" type="text" name="Firstname"></td>
+    </tr>
+    <tr>
+        <td><label for="surname">Sur Name: </label> </td>
+        <td><input id="surname" type="text" name="Surname"></td>
+    </tr>
+    <tr>
+        <td><label for="emailaddress">Emailaddress</label></td>
+        <td><input type="email" name=emailaddress id=emailaddress></td>
+    </t>
+    <tr>
+        <td><label for="mobilenumber">Mobile Number:</label> </td>
+        <td><input id="mobilenumber" type="tel" name="mobilenumber"></td>
+    </tr>
+    <tr>
+        <td><label for="date">Date:</label> </td>
+        <td> <input type="date" name="date" id="date"></td>
+    </tr>
+    <tr>
+        <td><label for="time">Time:</label> </td>
+        <td><input type="time" name="time" id="time"></td>
+    </tr>
+    <tr>
+        <td><label for="repairdetails">Repair details:</label></td>
+        <td><input type="text" name="repairdetails" id="repairdetails"></td>
+    </tr>
+    <tr> 
+        <td colspan="2" align="middle"> <label for="clear">.<input type="reset" value="Clear" class="reset"/></label> &nbsp;<label for="Bookappoitment">.<input 
+        type="submit" value="Book Appoitment" class="submit"/></label> </td> 
+    </tr>
+</table>
+</form>
+</div>
 <div class="aboutus" id="aboutus">
 <h1>About 4Phones</h1>                       
 <h2>4Phones has been in business for over ten years providing first-class service to its customers. <br> 
@@ -229,6 +267,29 @@ Email: info@4phones.com.au <br>
 
 Phone: 02 4444 5555  
 </p>
+</div>
+<div id="contactus" class="contactus" ><form name="ContactusForm" method="get" action="multipageContactus.html">
+<h1>Contact us Form</h1>
+<p>Please complete the following form to submit your message.</p>
+<table>
+    <tr>
+        <td><label for="Fullname">Full Name:</label></td>
+        <td><input id="Fullname" type="text" name="Fullname"></td>
+    </tr>
+    <tr>
+        <td><label for="Emailaddress">Email Address:</label></td>
+        <td><input type="email" name="Emailaddress" id="Emailaddress"></td>
+    </tr>
+      <tr>
+        <td><label for="message">Message:</label></td>
+        <td><input id="message" type="text" name="message" class="message"></td>
+    </tr>
+    <tr> 
+        <td colspan="2" align="middle"><label for="Clear">.<input type="reset" value="Clear" class="reset"/></label> &nbsp;<label for="submitmessage">.<input 
+        type="submit" value="Submit Message" class="submit"/></label> </td> 
+    </tr>
+</table>
+</form>
 </div>
 <div class="footer"> &copy; Copyright.4Phones 2025 <br> All rights reserved.</div>
  </div> 
